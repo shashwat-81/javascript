@@ -1,0 +1,19 @@
+body{
+    background-color: antiquewhite;
+
+}
+h1{
+    color: blue;
+    text-align: center;
+}
+div{
+    background-color: lightblue;
+    width: 500px;
+    margin: 20 px auto;
+    padding: 20px;
+    box-shadow: 4px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
