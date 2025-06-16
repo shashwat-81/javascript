@@ -1,0 +1,16 @@
+body{
+    background-color: aqua;
+}
+div{
+    background-color: tomato;
+    margin: 30px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    border-radius: 10px;
+    
+}
