@@ -1,9 +1,11 @@
-let student={
-    name:"shashwat",
-    age:21,
-    cgpa:8.49
+let student = {
+    name: "shashwat",
+    age: 21,
+    cgpa: 8.49
+};
 
-};
-for(let key in student){
-    console.log("key is ", key, " and value is " , student[key]);
-};
+let output = "";
+for (let key in student) {
+    output += `key is ${key} and value is ${student[key]}<br>`;
+}
+document.body.innerHTML += `<div>${output}</div>`;
