@@ -1,0 +1,21 @@
+body{
+
+    background: -webkit-gradient(linear, left top, right top, from(rgb(122, 140, 123)), to(rgb(119, 92, 99)));
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+#game
+{
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
